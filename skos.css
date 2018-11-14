@@ -8,7 +8,7 @@
     font-family: Montserrat, sans-serif;
 }
 
-.navbar-brand {
+.navbar-brand a {
     font-family: Arial, Helvetica, sans-serif !important;
     color: red !important;
 }
