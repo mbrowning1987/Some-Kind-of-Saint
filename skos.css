@@ -127,26 +127,14 @@ img {
     color: #000;
 }
 
-/* .carousel-inner img {
+.carousel-inner img {
     -webkit-filter: grayscale(90%);
     filter: grayscale(90%); /* make all photos black and white */ 
-    /* width: 100%; /* Set width to 100% */
-    /* margin: auto; */ 
-/* }  */
+    width: 100%; /* Set width to 100% */
+    margin: auto; 
+}
 
-.carousel-inner {
-    position: relative;
-    /* Removed height here */
-    overflow: hidden;
-  }
-  
-  .carousel-item {
-    position: relative;
-    width: 100vh;
-    height: 100vh;
-    display: none;
-    width: 100%;
-  }
+
 
 
 
