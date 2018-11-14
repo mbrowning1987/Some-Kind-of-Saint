@@ -135,7 +135,7 @@ img {
 }
 
 .navbar-brand {
-    font-family: URW Chancery L, cursive;
+    font-family: cursive !important;
 }
 
 
