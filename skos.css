@@ -8,10 +8,8 @@
     font-family: Montserrat, sans-serif;
 }
 
-@media (max-width: 770px) {
-    .navbar-brand {
-        font-size: 10px;
-    }
+#skos {
+    font-size: 60px;
 }
 .person {
     border: 10px solid transparent;
