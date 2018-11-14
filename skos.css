@@ -134,7 +134,9 @@ img {
     margin: auto; 
 }
 
-
+.navbar-brand a {
+    font-family: cursive;
+}
 
 
 
