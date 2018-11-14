@@ -134,10 +134,9 @@ img {
     margin: auto; 
 }
 
-.navbar-brand a {
-   color: red !important; 
+#skos {
+    color: red;
 }
-
 /* Navbar- brand A over rides custome/default css for navbar */
 
 
