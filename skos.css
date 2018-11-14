@@ -9,7 +9,8 @@
 }
 
 #skos {
-    font-size: 60px;
+    font-size: 40px;
+    font-family: cursive;
 }
 .person {
     border: 10px solid transparent;
