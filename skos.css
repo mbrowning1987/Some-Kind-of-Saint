@@ -1,3 +1,8 @@
+#skos a {
+    color: red;
+}
+/* Navbar- brand A over rides custome/default css for navbar */
+
 /* Main Container */
     .container {
      padding: 80px 120px;
@@ -134,10 +139,7 @@ img {
     margin: auto; 
 }
 
-#skos a {
-    color: red;
-}
-/* Navbar- brand A over rides custome/default css for navbar */
+
 
 
 
