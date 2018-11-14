@@ -135,7 +135,7 @@ img {
 }
 
 .navbar-brand a {
-   color: red; 
+   color: red !important; 
 }
 
 /* Navbar- brand A over rides custome/default css for navbar */
