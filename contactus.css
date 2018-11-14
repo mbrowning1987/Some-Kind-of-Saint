@@ -34,3 +34,9 @@ body{
 .contact-form .btnContact {
     width: 50%;
 }
+
+@media (max-width: 770px) {
+    .pic {
+       height: 50%;
+    }
+}
