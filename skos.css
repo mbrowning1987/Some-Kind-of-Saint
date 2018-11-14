@@ -135,8 +135,7 @@ img {
 }
 
 .navbar-brand a {
-    font-family: Comic Sans MS;
-    font-size: 20px;
+    font-family: Comic;
 }
 
 /* Navbar- brand A over rides custome/default css for navbar */
