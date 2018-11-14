@@ -35,8 +35,3 @@ body{
     width: 50%;
 }
 
-@media (max-width: 770px) {
-    .pic {
-       height: 50%;
-    }
-}

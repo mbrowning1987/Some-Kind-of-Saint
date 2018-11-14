@@ -160,4 +160,8 @@ img {
 .bg-1 p {font-style: italic;}
 
 
-
+@media (max-width: 770px) {
+    .pic {
+        height: 50%;
+    }
+}
