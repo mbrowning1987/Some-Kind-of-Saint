@@ -135,8 +135,10 @@ img {
 }
 
 .navbar-brand a {
-    font-family: cursive;
+    font-family: Apple Chancery, cursive;
 }
+
+/* Navbar- brand A over rides custome/default css for navbar */
 
 
 
