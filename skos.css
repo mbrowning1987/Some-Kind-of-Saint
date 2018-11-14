@@ -1,7 +1,4 @@
-#skos {
-    color: red !important;
-}
-/* Navbar- brand A over rides custome/default css for navbar */
+
 
 /* Main Container */
     .container {
@@ -11,7 +8,11 @@
     font-family: Montserrat, sans-serif;
 }
 
-
+@media (max-width: 770px) {
+    .navbar-brand {
+        font-size: 10px;
+    }
+}
 .person {
     border: 10px solid transparent;
     margin-bottom: 25px;
