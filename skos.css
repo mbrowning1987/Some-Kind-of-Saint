@@ -55,7 +55,13 @@
     border-color: #f1f1f1;
 }
 .person {
-    border-radius: 150px;
+    border-radius: 170px;
+}
+.heading {
+    font-family: cursive;
+    font-size: 1.5em;
+    text-decoration: underline;
+    text-decoration-color: red;
 }
 
 /* //collapsing image  */
