@@ -1,7 +1,7 @@
 
 
 /* Main Container */
-    .container {
+    /* .container {
      padding: 80px 120px;
 }
 
@@ -23,12 +23,12 @@ img {
 .pic {
     height: 600px;
     border-radius: 0;
-}
+} */
 
 
 
 /* Remove rounded borders from list */
-.list-group-item:first-child {
+/* .list-group-item:first-child {
     border-top-right-radius: 0;
     border-top-left-radius: 0;
 }
@@ -36,10 +36,10 @@ img {
 .list-group-item:last-child {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
-}
+} */
 
 /* Remove border and add padding to thumbnails */
-.thumbnail {
+/* .thumbnail {
     padding: 0 0 15px 0;
     border: none;
     border-radius: 0;
@@ -53,7 +53,7 @@ img {
 }
 .box-pic {
     border-radius: 0;
-}
+} */
 
 
 
@@ -129,7 +129,7 @@ img {
 
 
 /* Black buttons with extra padding and without rounded borders */
-.btn {
+/* .btn {
     padding: 10px 20px;
     background-color: #333;
     color: #f1f1f1;
@@ -139,14 +139,14 @@ img {
 .thumbnail {
     padding: 10px;
     background-color: white;
-}
+} */
 
 /* On hover, the color of .btn will transition to white with black text */
-.btn:hover, .btn:focus {
+/* .btn:hover, .btn:focus {
     border: 1px solid #333;
     background-color: #fff;
     color: #000;
-}
+} */
 
 .carousel-inner img {
     -webkit-filter: grayscale(90%);
@@ -159,21 +159,21 @@ img {
 
 
 
-.carousel-caption h3 {
+/* .carousel-caption h3 {
     color: #fff !important;
 }
 
 .list-group-item {
     color: black;
     font-weight: bold;
-}
+} */
 @media (max-width: 600px) {
     .carousel-caption {
         display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
 }
 
-.bg-1 {
+/* .bg-1 {
     background: #2d2d30;
     color: #bdbdbd;
 }
@@ -185,7 +185,7 @@ img {
     .pic {
         height: 80%;
     }
-}
+} */
 button span {
     /*overwriting*/
     color: white;
