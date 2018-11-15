@@ -106,7 +106,7 @@ img {
 } */ */
 
 
-.navbar-brand {
+/* .navbar-brand {
     font-size: 2em !important;
 }
 @media (max-width:500px) {
@@ -125,7 +125,7 @@ img {
         color: red;
         opacity: 0.8;
         border-radius: 10px;
-        }
+        } */
 
 
 /* Black buttons with extra padding and without rounded borders */
@@ -148,12 +148,7 @@ img {
     color: #000;
 } */
 
-.carousel-inner img {
-    -webkit-filter: grayscale(90%);
-    filter: grayscale(90%); /* make all photos black and white */ 
-    width: 100%; /* Set width to 100% */
-    margin: auto; 
-}
+/* / */
 
 
 
@@ -167,10 +162,10 @@ img {
     color: black;
     font-weight: bold;
 } */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     .carousel-caption {
         display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-    }
+    /* } */ 
 }
 
 /* .bg-1 {
