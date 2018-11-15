@@ -3,7 +3,7 @@
 
 .navbar-brand {
     font-size: 2em !important;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-family: cursive !important;
 }
 @media (max-width:500px) {
     .navbar-brand {
@@ -58,7 +58,7 @@
     border-radius: 170px;
 }
 .heading {
-    font-family: cursive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5em;
     text-decoration: underline;
     text-decoration-color: red;
