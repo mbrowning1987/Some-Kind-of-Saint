@@ -54,7 +54,9 @@
 .person:hover {
     border-color: #f1f1f1;
 }
-
+.person {
+    border-radius: 20px;
+}
 
 /* //collapsing image  */
 
