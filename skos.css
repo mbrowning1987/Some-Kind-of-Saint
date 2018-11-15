@@ -72,10 +72,12 @@ img {
 
 
 /* Add a gray color to all navbar links */
-/* .navbar li a, .navbar .navbar-brand { 
+.navbar li a, .navbar .navbar-brand { 
     color: #d5d5d5 !important;
-} */
-
+}
+.navbar-brand {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 /* On hover, the links will turn white */
 .navbar-nav li a:hover {
     color: red !important;
