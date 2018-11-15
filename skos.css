@@ -3,8 +3,7 @@
 
 .navbar-brand {
     font-size: 2em !important;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-    color: red !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
 @media (max-width:500px) {
     .navbar-brand {
