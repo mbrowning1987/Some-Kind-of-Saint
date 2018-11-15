@@ -72,9 +72,9 @@ img {
 
 
 /* Add a gray color to all navbar links */
-.navbar li a, .navbar .navbar-brand { 
+/* .navbar li a, .navbar .navbar-brand { 
     color: #d5d5d5 !important;
-}
+} */
 
 /* On hover, the links will turn white */
 .navbar-nav li a:hover {
@@ -166,4 +166,9 @@ img {
     .pic {
         height: 80%;
     }
+}
+button span {
+    /*overwriting*/
+    color: white;
+    font-size: 25px;
 }
