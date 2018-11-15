@@ -32,7 +32,7 @@
 
 @media (max-width: 770px) {
     .pic {
-        height: 180px;
+        height: 180px !important;
     }
 }
 @media (max-width: 600px) {
