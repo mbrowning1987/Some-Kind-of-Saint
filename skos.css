@@ -29,11 +29,16 @@
     color: #fff !important;
 }
 
-.pic {
+/* .pic {
+    
     height: 600px;
     border-radius: 0;
-}
+} */
 
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 @media (max-width: 770px) {
     .pic {
@@ -115,10 +120,7 @@ img {
     border-radius: 50%;
 }
 
-.pic {
-    height: 600px;
-    border-radius: 0;
-} */
+
 
 
 
