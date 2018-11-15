@@ -122,7 +122,7 @@ img {
 
  #bottom-nav:hover {
         background-color: black;
-        color: white;
+        color: red;
         opacity: 0.8;
         border-radius: 10px;
         }
