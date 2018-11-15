@@ -114,7 +114,7 @@ img {
     font-size: 1em !important;
     }
 }
-.nav-item:hover {
+.nav-link:hover {
     background-color: red;
     opacity: 0.8;
     border-radius: 10px;
