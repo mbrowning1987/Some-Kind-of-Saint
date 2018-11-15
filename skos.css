@@ -4,9 +4,6 @@
     .container {
      padding: 80px 120px;
 }
-.navbar {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
 
 .person {
@@ -61,7 +58,7 @@ img {
 
 
 /* Add a dark background color with a little bit see-through */ 
-.navbar {
+/* .navbar {
     margin-bottom: 0;
     background-color: #2d2d30;
     border: 0;
@@ -72,41 +69,63 @@ img {
 
 
 /* Add a gray color to all navbar links */
-.navbar li a, .navbar .navbar-brand { 
+/* .navbar li a, .navbar .navbar-brand { 
     color: #d5d5d5 !important;
-}
+} */
 
 /* On hover, the links will turn white */
-.navbar-nav li a:hover {
+/* .navbar-nav li a:hover {
     color: red !important;
-}
+} */
 
 /* The active link */
-.navbar-nav li.active a {
+/* .navbar-nav li.active a {
     color: pink !important;
     background-color:#29292c !important;
-}
+} */
 
 /* Remove border color from the collapsible button */
-.navbar-default .navbar-toggle {
+/* .navbar-default .navbar-toggle {
     border-color: transparent;
-}
+} */
 
 /* Dropdown */
-.open .dropdown-toggle {
+/* .open .dropdown-toggle {
     color: #fff ;
     background-color: purple !important;
-}
+} */
 
 /* Dropdown links */
-.dropdown-menu li a {
+/* .dropdown-menu li a {
     color: white !important;
-}
+} */
 
 /* On hover, the dropdown links will turn red */
-.dropdown-menu li a:hover {
+/* .dropdown-menu li a:hover {
     background-color: red !important;
+} */ */
+
+
+.navbar-brand {
+    font-size: 2em !important;
 }
+@media (max-width:500px) {
+    .navbar-brand {
+    font-size: 1em !important;
+    }
+}
+.nav-item:hover {
+    background-color: red;
+    opacity: 0.8;
+    border-radius: 10px;
+    }
+
+ #bottom-nav:hover {
+        background-color: black;
+        color: white;
+        opacity: 0.8;
+        border-radius: 10px;
+        }
 
 
 /* Black buttons with extra padding and without rounded borders */
