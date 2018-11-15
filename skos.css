@@ -1,4 +1,77 @@
 
+/*  Nav Brand (The SKOS on the left side)  */
+
+.navbar-brand {
+    font-size: 2em !important;
+}
+@media (max-width:500px) {
+    .navbar-brand {
+    font-size: 1em !important;
+    }
+}
+.nav-item:hover {
+    background-color: red;
+    opacity: 0.8;
+    border-radius: 10px;
+    }
+
+ #bottom-nav:hover {
+        background-color: black;
+        color: white;
+        opacity: 0.8;
+        border-radius: 10px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Main Container */
     /* .container {
@@ -103,7 +176,7 @@ img {
 /* On hover, the dropdown links will turn red */
 /* .dropdown-menu li a:hover {
     background-color: red !important;
-} */ */
+} */ 
 
 
 /* .navbar-brand {
@@ -166,7 +239,7 @@ img {
     .carousel-caption {
         display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     /* } */ 
-}
+/* } */
 
 /* .bg-1 {
     background: #2d2d30;
@@ -181,8 +254,8 @@ img {
         height: 80%;
     }
 } */
-button span {
+/* button span { */
     /*overwriting*/
-    color: white;
+    /* color: white;
     font-size: 25px;
-}
+} */
