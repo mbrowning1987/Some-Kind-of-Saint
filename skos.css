@@ -123,7 +123,7 @@
 
  @media (max-width:770px) {
     .display-4 {
-        font-size: 1.5em;
+        font-size: 2em !important;
  }
  }
 
