@@ -121,8 +121,13 @@
  }
  }
 
+ @media (max-width:770px) {
+    .upcoming {
+        font-size: 1.5em;
+ }
+ }
 
- 
+
 
 
 
