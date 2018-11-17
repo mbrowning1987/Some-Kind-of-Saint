@@ -25,7 +25,9 @@
         border-radius: 10px;
         }
 /* // End Nav */
-
+.jumbotron {
+    padding: 0 !important;
+}
 /*   Carousel */
 .pic {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -84,7 +86,11 @@
 }
 
 /* MEDIA QUERIES */
-
+@media (max-width: 770px) {
+    .shows {
+        font-size: 1em !important;
+    }
+}
 
 @media (max-width:500px) {
     .navbar-brand {
