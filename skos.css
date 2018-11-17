@@ -1,14 +1,16 @@
 
+
+
 /*  Nav Brand (The SKOS on the left side)  */
 
-.navbar-brand {
+.title {
     font-size: 2em !important;
     font-family: cursive !important;
+    color: white !important;
 }
-@media (max-width:500px) {
-    .navbar-brand {
-    font-size: 1em !important;
-    }
+
+.nav-link {
+    color: white !important;
 }
 .nav-item:hover {
     background-color: red;
@@ -24,8 +26,6 @@
         }
 /* // End Nav */
 
-
-
 /*   Carousel */
 .pic {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -35,6 +35,61 @@
     color: #fff !important;
 }
 
+/*  // Carousel */
+
+/* Main Paragrahps and heading */
+.head {
+    font-size: 2.5em;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: underline;
+    text-decoration-color: crimson;
+    font-weight: bolder;
+   
+}
+.upcoming, .shows {
+    text-align: center;
+}
+.jumbotron-fluid {
+    background-color: white !important;
+}
+.upcoming {
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.about, .text {
+    text-align: center;
+}
+
+.about {
+    font-weight: bold
+    padding-top: 15px;
+    text-decoration: underline;
+    text-decoration-color: red;
+    font-size: 2em;
+    font-family: cursive;
+}
+.text {
+    font-size: 20px;
+}
+/* //Main Paragrahps and heading */
+
+.card-deck {
+    padding-top: 20px;
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media (max-width:500px) {
+    .navbar-brand {
+    font-size: 1em !important;
+ 
+    }
+}
 @media (max-width: 770px) {
     .pic {
         height: 180px !important; /* this is changing the width of pic, so its not squishy */
@@ -45,42 +100,21 @@
         display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
 }
-
-/*  // Carousel */
-
-/* collapsing image  */
-.person {
-    border: 10px solid transparent;
-    margin-bottom: 25px;
-    width: 80%;
-    height: 80%;
-    opacity: 0.7;
+@media (max-width: 770px) {
+    .head {
+        font-size: 1.5em;
+    }
 }
-.person:hover {
-    border-color: #f1f1f1;
+@media (max-width: 770px) {
+    .about {
+        font-size: 1.2em;
+    }
 }
-
-.person {
-    border-radius: 170px;
+@media (max-width: 770px) {
+    .text {
+        font-size: 1em;
+    }
 }
-.heading {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5em;
-    text-decoration: underline;
-    text-decoration-color: red;
-}
-
-/* //collapsing image  */
-
-
-
-
-
-
-
-
-
-
 
 
 
