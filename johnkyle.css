@@ -1,0 +1,135 @@
+/*  Nav Brand (The SKOS on the left side)  */
+
+.title {
+    font-size: 2em !important;
+    font-family: cursive !important;
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+.nav-item:hover {
+    background-color: red;
+    opacity: 0.8;
+    border-radius: 10px;
+    }
+
+ #bottom-nav:hover {
+        background-color: black;
+        color: white;
+        opacity: 0.8;
+        border-radius: 10px;
+        }
+/* // End Nav */
+.jumbotron {
+    padding: 0 !important;
+}
+/*   Carousel */
+.pic {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+ .carousel-caption h3 { 
+    color: #fff !important;
+}
+
+/*  // Carousel */
+
+/* Main Paragrahps and heading */
+.head {
+    font-size: 2.5em;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: underline;
+    text-decoration-color: crimson;
+    font-weight: bolder;
+   
+}
+.upcoming, .shows {
+    text-align: center;
+}
+.jumbotron-fluid {
+    background-color: white !important;
+}
+.upcoming {
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.about, .text {
+    text-align: center;
+}
+
+.about {
+    font-weight: bold
+    padding-top: 15px;
+    text-decoration: underline;
+    text-decoration-color: red;
+    font-size: 2em;
+    font-family: cursive;
+}
+.text {
+    font-size: 20px;
+}
+/* //Main Paragrahps and heading */
+
+.card-deck {
+    padding-top: 20px;
+}
+.shows {
+    font-size: 2em !important;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 770px) {
+    .shows {
+        font-size: 1em !important;
+    }
+}
+
+@media (max-width:500px) {
+    .navbar-brand {
+    font-size: 1em !important;
+ 
+    }
+}
+@media (max-width: 770px) {
+    .pic {
+        height: 180px !important; /* this is changing the width of pic, so its not squishy */
+    }
+}
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+@media (max-width: 770px) {
+    .head {
+        font-size: 1.5em;
+    }
+}
+@media (max-width: 770px) {
+    .about {
+        font-size: 1.2em;
+    }
+}
+@media (max-width: 770px) {
+    .text {
+        font-size: 1em;
+    }
+}
+@media (max-width:770px) {
+    .text, .head {
+        text-decoration-color: red;
+ }
+ }
+
+ @media (max-width:770px) {
+    .display-4 {
+        font-size: 2em !important;
+ }
+ }
+
+
