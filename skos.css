@@ -79,7 +79,9 @@
 .card-deck {
     padding-top: 20px;
 }
-
+.shows {
+    font-size: 2em !important;
+}
 
 /* MEDIA QUERIES */
 
