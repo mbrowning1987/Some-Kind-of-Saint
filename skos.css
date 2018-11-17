@@ -62,7 +62,11 @@
 .about, .text {
     text-align: center;
 }
-
+@media (max-width:770px) {
+   .text, .head {
+           text-decoration-color: red;
+}
+}
 .about {
     font-weight: bold
     padding-top: 15px;
