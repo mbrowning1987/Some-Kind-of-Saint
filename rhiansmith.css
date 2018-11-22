@@ -8,7 +8,9 @@ h1, h2, p {
     font-family: cursive !important;
     color: white !important;
 }
-
+.pic {
+    height: 550px !important; /* this is changing the width of pic, so its not squishy */
+}
 .nav-link {
     color: white !important;
 }
@@ -17,6 +19,9 @@ h1, h2, p {
     opacity: 0.8;
     border-radius: 10px;
     }
+ .rhian {
+     padding: 20px;
+ }   
 
  #bottom-nav:hover {
         background-color: black;
