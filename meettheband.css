@@ -18,7 +18,6 @@ hr {
     }
 }
 
-
 /* //Carousel */
 /* MAIN JUMBOTRON */
 .jumbotron {
@@ -57,4 +56,8 @@ img {
     margin-top: 20px;
 }
 
-
+/* footer css */
+.copy {
+    text-align: right;
+    color: red;
+}
