@@ -1,0 +1,41 @@
+
+
+/* MAIN JUMBOTRON */
+
+.jumbotron {
+    text-align: center;
+    background-color: black !important;
+    color: orange;
+    /* margin-bottom: 0 !important; */
+}
+.jbth {
+    text-decoration: underline;
+}
+.jbtp {
+    padding-top: 15px;
+}
+@media (max-width: 770px) {
+    .jbth {
+        font-size: 1.5rem !important;
+        text-decoration: underline;
+        padding-bottom: 10px;
+    }
+}
+@media (max-width: 770px) {
+    .jbtp {
+        font-size: 1rem !important;
+    }
+}
+body {
+    background-color: darkgrey;
+}
+
+img {
+    width: 800px !important;
+    height: 600px;
+}
+.corey {
+    margin-top: 20px;
+}
+
+
