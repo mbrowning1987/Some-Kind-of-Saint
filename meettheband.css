@@ -1,7 +1,9 @@
 body {
     background-color: black !important;
 }
-
+hr {
+    border-color: orange !important;
+}
 /* Carousel */
 .slide {
     display: block;
