@@ -32,7 +32,9 @@
 
 
 /* gallery */
-
+img:hover {
+    cursor: pointer;
+}
 img {
     height: 160px;
     width: 300px;
