@@ -24,24 +24,20 @@
 
 /* VIDEO */
 .video {
+    padding: 20px;
     text-align: center;
 }
-
-
 
 /* // VIDEO */
 
 
-/* CAROUSEL CSS */
-.carousel-inner {
-    border: solid;
-    border-color: white;
-    padding: 20px;
-    padding-top: 30px;
+/* gallery */
+
+img {
+    height: 160px;
+    width: 300px;
 }
-
-
-/* // CAROUSEL CSS */
+/* // gallery */
 
 /* MEDIA QUERIES */
 @media (max-width: 770px) {
@@ -61,5 +57,21 @@
     max-width: 100%; } 
 }
 
+@media (max-width: 767px) {  /* This is center the images after a breakpoint */
+    img {
+      display: table;
+      margin: 0 auto;
+    }
+ }
+@media (max-width: 600px) {
+iframe {
+    height:250px !important;
+    width: 300px !important;
+}
+}
+
 /* // MEDIA QUERIES */
     
+
+
+
