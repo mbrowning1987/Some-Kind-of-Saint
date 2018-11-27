@@ -49,6 +49,11 @@ hr {
         padding-bottom: 10px;
     }
 }
+@media ( max-width: 770px) {
+    .title {
+        font-size: .75em;
+    }
+}
 @media (max-width: 770px) {
     .jbtp {
         font-size: 1rem !important;
