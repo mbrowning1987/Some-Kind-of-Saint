@@ -17,6 +17,16 @@ hr {
         height: 300px !important;
     }
 }
+.title {
+    color: orange !important;
+    font-family: cursive !important;
+    font-size: 2em !important;
+}
+.nav-item:hover {
+    background-color: orange;
+    opacity: 0.8;
+    border-radius: 10px;
+    }
 
 /* //Carousel */
 /* MAIN JUMBOTRON */
@@ -58,5 +68,5 @@ img {
 
 /* footer css */
 .copy {
-    color: red;
+    color: orange;
 }
